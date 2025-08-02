@@ -11,30 +11,26 @@ italic = { family ="Mononoki Nerd Font", style = "Italic" }
 bold_italic = {family = "Mononoki Nerd Font", style = "BoldItalic"}
 size = 15
 
-
-
-
-
 [colors.primary]
-background = "#272822"
-foreground = "#f8f8f2"
+foreground = "#cccccc"
+background = "#1e1e1e"
 
 [colors.normal]
-black = "#272822"
-red = "#f92672"
-green = "#a6e22e"
-yellow = "#f4bf75"
-blue = "#66d9ef"
-magenta = "#ae81ff"
-cyan = "#a1efe4"
-white = "#f8f8f2"
+black = "#000000"
+red = "#cd3131"
+green = "#0dbc79"
+yellow = "#e5e510"
+blue = "#2472c8"
+magenta = "#bc3fbc"
+cyan = "#11a8cd"
+white = "#e5e5e5"
 
 [colors.bright]
-black = "#75715e"
-red = "#f92672"
-green = "#a6e22e"
-yellow = "#f4bf75"
-blue = "#66d9ef"
-magenta = "#ae81ff"
-cyan = "#a1efe4"
-white = "#f9f8f5"
+black = "#666666"
+red = "#f14c4c"
+green = "#23d18b"
+yellow = "#f5f543"
+blue = "#3b8eea"
+magenta = "#d670d6"
+cyan = "#29b8db"
+white = "#e5e5e5"
