@@ -1,0 +1,63 @@
+{
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 10,
+
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": [
+        "pulseaudio",
+        "power-profiles-daemon",
+        "backlight",
+        "battery",
+        "clock",
+        "tray"
+    ],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10,
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 VOL {volume}% ",
+        "format-muted": "󰝟 VOL Muted "
+    },
+
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "󰠠 PER",
+        "performance": "󰠠 PER",
+        "balanced": "󰗑 BAL",
+        "power-saver": "󰌪 ECO"
+      }
+    },
+
+    "backlight": {
+        "format": "󰃞 BRI {percent}%"
+    },
+
+    "battery": {
+        "format": "󰁹 BAT {capacity}%",
+        "format-charging": "󰂄 BAT {capacity}%",
+        "critical": 15
+    },
+
+    "clock": {
+        "format": "󰥔  {:%d-%m-%Y %I:%M %p}"
+    }
+}
