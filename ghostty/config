@@ -1,0 +1,12 @@
+font-family = IBM Plex Mono
+font-style = Medium
+font-size = 20
+
+window-padding-x = 10
+window-padding-y = 10
+
+#theme = TokyoNight 
+#theme = Catppuccin Mocha
+#theme = Kanagawa Wave
+#theme = Gruvbox Dark Hard
+ theme = Adwaita Dark
